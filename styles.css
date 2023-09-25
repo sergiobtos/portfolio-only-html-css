@@ -49,6 +49,10 @@ a:hover {
   text-decoration: none;
 }
 
+img {
+  width: 100%;
+}
+
 .section-blue {
   background-color: var(--dkblue);
 }
@@ -192,7 +196,7 @@ nav [class*="fa-"]:hover {
 .blackbox {
   padding: 1rem;
   border-radius: 10px;
-  color: white;
+  color: var(--white);
   background-color: var(--black);
   font-size: 1rem;
   line-height: 1.5;
